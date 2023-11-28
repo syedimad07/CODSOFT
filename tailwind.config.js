@@ -5,8 +5,16 @@ module.exports = {
     extend: {},
     fontFamily : {
       signature : ["Great Vibes"],
-      tinos : ["Tinos"]
-    }        
+      tinos : ["Tinos"],
+    },
+    
+    colors: {
+      'dark-grey': "#043944",
+      'Beaut-P': "#bf4aa8",
+      'white-d': "#d9d9d9",
+      'tan-d': "#c9af98"
+    }
+           
   },
   plugins: [],
 }

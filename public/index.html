@@ -8,18 +8,19 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
-<body class="bg-slate-950">
+<body class="">
  
     <header class="fixed top-0 w-full bg-slate-950">
         <div class="flex items-center justify-between max-w-6xl h-20 mx-auto">
             <a href="#home" class="flex items-center">
                 
-                <p class="text-2xl text-slate-400  font-bold font-signature hover:animate-ping" >Syed Imaduddin</p>
+                <p class="text-2xl text-white-d  font-bold font-signature hover:animate-ping" >Syed Imaduddin</p>
             </a>
          
-        <div class="gap-9 flex items-center text-slate-400 font-tinos">
+        <div class="gap-9 flex items-center text-white-d font-tinos">
             <a href="#home" class="text-xl font font-semibold hover:animate-pulse">Home</a>
             <a href="#about" class="text-xl font-semibold hover:animate-pulse">About</a>
+            <a href="#skills" class="text-xl font-semibold hover:animate-pulse">Skills</a>
             <a href="#contact" class="text-xl font-semibold hover:animate-pulse">Contact</a>
         </div>  
             
@@ -31,19 +32,20 @@
         <div class="max-w-6xl mx-auto">
             <section id="home" class="bg-[url('./assets/ins.jpg')] rounded-full bg-contain bg-right bg-no-repeat mt-20 mr-20 ">
                 <div class="pt-24 pb-36">
-                    <h1 class="text-slate-400 text-5xl font-bold" >Hi</h1>
-                    <h1 class="text-slate-400 text-5xl font-bold mt-4">I'm <span class="text-slate-50">Imaduddin</span></h1>
-                    <h1 class="text-slate-50 text-5xl font-bold mt-4">Web Developer</h1>
-                    <h2 class="text-slate-400 text-2xl font-semibold mt-4">FrontEnd Developer / React Developer / TailwindCss Expert</h2>
+                    <h1 class="text-Beaut-P text-5xl font-bold" >Hi</h1>
+                    <h1 class="text-white-d text-5xl font-bold mt-4">I'm <span class="text-Beaut-P">Imaduddin</span></h1>
+                    <h1 class="text-Beaut-P text-5xl font-bold mt-4">Web Developer</h1>
+                    <h2 class="text-white-d text-2xl font-semibold mt-4">FrontEnd Developer / React Developer </h2>
+                    <h2 class="text-white-d text-2xl font-semibold mt-4">TailwindCss Developer</h2>
 
                 </div>
             </section>
             <section id="about">
-                <div class="flex gap-48 py-36">
+                <div class="flex gap-48 py-36 text-white-d">
                     <img src="assets/about.jpg" alt="" class="h-96 rounded-s-full mt-11">
                     <div>
-                        <p class="text-slate-400 font-tinos font-bold mt-10">Hey there, I'm Imaduddin</p>
-                        <p class="text-slate-400 font-bold font-tinos mt-8 text-lg"> A passionate and dynamic frontend developer ready to make my mark in the ever-evolving world of web development. Armed with a strong foundation in HTML, CSS, and JavaScript, I bring a fresh perspective and an eagerness to learn and grow.
+                        <p class=" font-tinos font-bold mt-10">Hey there, I'm Imaduddin</p>
+                        <p class=" font-bold font-tinos mt-8 text-lg"> A passionate and dynamic frontend developer ready to make my mark in the ever-evolving world of web development. Armed with a strong foundation in HTML, CSS, and JavaScript, I bring a fresh perspective and an eagerness to learn and grow.
 
                             I thrive on turning creative ideas into functional and visually appealing websites, and I'm committed to delivering seamless user experiences. My journey as a fresher in the tech world is driven by a curiosity to explore new technologies and a dedication to staying abreast of the latest trends in frontend development.
                             
@@ -52,31 +54,49 @@
                 </div>
             </section>
         </div>
-        <section id="contact">
-        <div class="flex justify-evenly py-24">
-            <div>
-                    <h1 class="text-slate-400 font-extrabold text-4xl mt-24">Let's Connect.</h1>
-                   <p class="text-slate-400 text-xl mt-4 font-bold w-[80%]">Feel free to reach out to me for exciting job opportunities or internship. I'm eager to contribute my skills and enthusiasm to your team!</p>                 
-            
-                <div class="flex mt-10 ml-20 gap-6">
-                    <i class="fa-solid fa-envelope-open-text fa-fade fa-4x " style="color: #ced4df;"></i>
-                    <p class="text-slate-400 font-tinos font-bold text-2xl  w-28">Mail me at syedimad.ext@gmail.com</p>
+
+        <section class="mx-auto" id="skills">
+            <div class=" text-slate-400 text-center py-24">
+                <p class="text-4xl font-bold font-tinos text-white-d">Skills</p>
+                <p class="text-tan-d text-lg pt-3 font-tinos">"Empowering Success, One Skill at a Time."</p>
+
+                <div class="grid grid-cols-3 gap-8 mt-10 text-white-d font-tinos backdrop-blur-sm">
                     
+                    <div class="bg-blend-lighten rounded-xl flex flex-col gap-2 items-center">
+                        <img src="assets/html_plain_wordmark_logo_icon_146476.png" class="h-250 w-60" alt="Html5">
+                        <h3 class="text-tan-d">HTML5</h3>
+                        <p>"HTML5, crafting digital excellence with precision and flair."</p>
+                    </div>
+                    <div class="bg-blend-lighten rounded-xl flex flex-col gap-2 items-center">
+                        <img src="assets/css_plain_wordmark_logo_icon_146574.png" class="h-250 w-60" alt="Css3">
+                        <h3 class="text-tan-d">CSS3</h3>
+                        <p>"Mastering the Art of Web Styling: CSS3 Expertise Unleashed."</p>
+                    </div>
+                    <div class="bg-blend-lighten rounded-xl flex flex-col gap-2 items-center">
+                        <img src="assets/tailwindcss_logo_icon_167923.png" class="h-250 w-60" alt="TailwindCss">
+                        <h3 class="text-tan-d">TailwindCss v3.3.5</h3>
+                        <p>"TailwindCSS Expert: Navigating the stylesheet landscape with precision and creativity."</p>
+                    </div>
+                    <div class="bg-blend-lighten rounded-xl flex flex-col gap-2 items-center">
+                        <img src="assets/javascript_original_logo_icon_146455.png" class="h-250 w-60" alt="JavaScript">
+                        <h3 class="text-tan-d">JavaScript</h3>
+                        <p>"JavaScript Maestro: Navigating the code with expertise and crafting dynamic web solutions effortlessly."</p>
+                    </div>
+                    <div class="bg-blend-lighten rounded-xl flex flex-col gap-2 items-center">
+                        <img src="assets/react_logo_icon_144942.png" class="h-250 w-60" alt="ReactJs">
+                        <h3 class="text-tan-d">ReactJs</h3>
+                        <p>"ReactJS Expertise: Where intricate components meet seamless user experiences."</p>
+                    </div>
+                    <div class="bg-blend-lighten rounded-xl flex flex-col gap-2 items-center">
+                        <img src="assets/github_git_hub_logo_icon_132878.png" class="h-250 w-60" alt="GitHub">
+                        <h3 class="text-tan-d">GitHub</h3>
+                        <p>"Mastering GitHub with precision and proficiency, turning code into collaboration effortlessly."</p>
+
+                    </div>
                 </div>
             </div>
-            <div class="bg-slate-400 px-8 py-10 space-y-4 rounded-lg shadow-xl ml-40">
-                <h1 class="text-2xl font-semibold text-slate-400">Send me a massage!</h1>
-                <form class="w-[350px] flex flex-col gap-3 ">
-                    <input type="text" placeholder="Name">
-                    <input type="email" placeholder="Email">
-                    <input type="text" placeholder="Subject">
-                    <textarea placeholder="Message"></textarea>
-                    <button class="text-slate-950 rounded hover:ring-2 py-2 text-lg">Send Message</button>
-                </form>
-            </div>
-         </div>
-
         </section>
+        
 
 
     </main>
